@@ -1,0 +1,22 @@
+{
+  "name": "laravel-orion-reactdatagrid",
+  "version": "0.0.1",
+  "description": "Laravel Orion - ReactDataGrid Integration",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild ./src/index.js --bundle --minify --sourcemap --target=chrome58 --outfile=./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7",
+    "sweetalert2": "^11.10.5",
+    "sweetalert2-react-content": "^5.0.7"
+  },
+  "devDependencies": {
+    "esbuild": "0.20.0"
+  }
+}
